@@ -1,0 +1,23 @@
+.card{
+    width: 500px;
+    &__image{
+        width: 450px;
+    }
+    &__textBox{
+        &__title{
+            font-size: 20px;
+        }
+        &__text{
+            font-size: 14px;
+            &:hover{
+
+            }
+            &::after{
+
+            }
+            &.active{
+                
+            }
+        }
+    }
+}

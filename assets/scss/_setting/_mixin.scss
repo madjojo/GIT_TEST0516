@@ -1,0 +1,22 @@
+//基本ブレークポイント
+
+// サイドバーが消えるbreakpoint
+@mixin forSide {
+	@media screen and (max-width: 1200px) {
+		@content;
+	}
+}
+
+// Topメニューサイズ変更breakpoint
+@mixin forTop {
+	@media screen and (max-width: 1030px) {
+		@content;
+	}
+}
+
+// Topメニューサイズ変更breakpoint
+@mixin forTop02 {
+	@media screen and (max-width: 800px) {
+		@content;
+	}
+}
